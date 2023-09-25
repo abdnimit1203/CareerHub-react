@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,h2,h3{
+  font-size: x-large;
+  font-weight: 700;
+}
+.job-details{
+  background-image: url("/public/assets/images/bg1.png"), url("/public/assets/images/bg2.png");
+  background-repeat: no-repeat,no-repeat;
+  background-position: left bottom, right top;
+}
